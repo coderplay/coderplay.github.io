@@ -4,6 +4,9 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
+
+## !USE TEXT THEME
+theme: jekyll-text-theme
 #
 # ,--------.      ,--.   ,--. ,--.
 # '--.  .--',---.  \  `.'  /,-'  '-.
@@ -11,13 +14,13 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
-text_color_theme: default #eg: default | dark | forest | ocean | chocolate | orange
+text_color_theme: dark #eg: default | dark | forest | ocean | chocolate | orange
 ## Base settings ##
-# url:  #the base hostname & protocol for your site e.g. https://www.someone.com
+url: http://blog.minzhou.info  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: Someone's blog
+title: About Distributed
 description: > #this means to ignore newlines until "nav_lists:"
-  Someone's Blog
+  About Distributed.
 
 nav_lists:
   - titles:
@@ -34,24 +37,24 @@ nav_lists:
 #   rss:  /feed.xml
 
 ## GitHub repository (if the site is hosted by GitHub) ##
-# repository:  #e.g. someone/someone.github.io
-# repository_tree:  #e.g. master
+repository:  coderplay/coderplay.github.com #e.g. someone/someone.github.io
+repository_tree: master #e.g. master
 
 ## Language & timezone ##
 lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
-timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: America/Los_Angeles #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 ## Author & social ##
 author:
-  name: Someone
-  # email:  #your Email address e.g. someone@site.com
+  name: Min Zhou
+  email: coderplay@gmail.com  #your Email address e.g. someone@site.com
   # facebook:  #your Facebook username
-  # twitter:  #your Twitter username
-  # github:  #your GitHub username
+  twitter: minzhou #your Twitter username
+  github: coderplay  #your GitHub username
   # googleplus:  #your Google+ username
-  # weibo:  #your Weibo username
+  weibo: coderplay #your Weibo username
   # douban:  #your Douban username
-  # linkedin:  #your Linkedin username
+  linkedin: coderplay  #your Linkedin username
 
 ## TOC
 toc:
@@ -59,16 +62,18 @@ toc:
 
 ## Comment system (Disqus) ##
 disqus:
+  # shortname: minzhou
   # shortname:  #the Disqus shortname for the site
 
 ## Comment system (gitalk) ##
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  # clientID:  #Github Application Client ID
-  # clientSecret:  #Github Application Client Secret
-  # repository:  #Github repo
-  # owner:  #Github repo owner
-  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+  clientID: 48d6cd77365935ec481e #Github Application Client ID
+  ClientSecret: 5402c2d7a1f032b2504c65ea4c20c52ab65c46ce  #Github Application Client Secret
+  Repository:  coderplay.github.io  #Github repo
+  owner: coderplay #Github repo owner
+  admin:  #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+    - coderplay
     # - owner
 
 ## Google Analytics ##
@@ -80,10 +85,10 @@ leancloud:
   # app_key:  #LeanCloud App key
   # app_class:  #LeanCloud App class
 
-# mathjax: true
-# mathjax_autoNumber: true
-# mermaid: true
-# chart: true
+mathjax: true
+mathjax_autoNumber: true
+mermaid: true
+chart: true
 
 ## Paginate ##
 paginate: 7
