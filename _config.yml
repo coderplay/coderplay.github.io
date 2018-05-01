@@ -37,7 +37,7 @@ nav_lists:
 #   rss:  /feed.xml
 
 ## GitHub repository (if the site is hosted by GitHub) ##
-repository:  coderplay/coderplay.github.com #e.g. someone/someone.github.io
+repository:  coderplay/coderplay.github.io #e.g. someone/someone.github.io
 repository_tree: master #e.g. master
 
 ## Language & timezone ##
