@@ -70,7 +70,7 @@ disqus:
 gitalk:
   clientID: 48d6cd77365935ec481e #Github Application Client ID
   clientSecret: 5402c2d7a1f032b2504c65ea4c20c52ab65c46ce  #Github Application Client Secret
-  repository:  coderplay.github.io  #Github repo
+  repository:  minzhou-gitalk  #Github repo
   owner: coderplay #Github repo owner
   admin:  #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
     - coderplay
